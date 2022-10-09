@@ -48,11 +48,15 @@
   * [Validation in Spring boot](https://spring.io/guides/gs/validating-form-input/)
 
 * ### Future Development:
-  * #### Backend enhancements
+  * #### Backend enhancements:
     * [ ] Secure the end points.
     * [ ] Full Unit tests.
     * [ ] Integration test.
     * [ ] Response Strategies for each status code.
     * [ ] Swagger the end point with postman collection.
     * [ ] Database more entities which help the business.
-
+  * #### Frontend enhancements:
+    * [ ] UI/UX fixes.
+    * [ ] Use angular forms validations.
+    * [ ] Handle more response status code.
+    * [ ] Integrate With backend Authentication. 
