@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "401c237c-dcf1-4d7c-95ea-6155de971f73",
+		"name": "irrigation-system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1046035"
+	},
+	"item": [
+		{
+			"name": "get all plots",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/plots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"plots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create new plot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"test new\",\n        \"slot\": \"2022-10-15T13:13:00.000+00:00\",\n        \"amount\": 1.0,\n        \"period\": 1,\n        \"sensor_status\": false,\n        \"attempts_to_recall\": 3\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/plots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"plots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get plot details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/plots/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"plots",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update plot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\":38,\n        \"name\": \"test\",\n        \"slot\": \"2022-10-15T13:13:00.000+00:00\",\n        \"amount\": 1.0,\n        \"period\": 1,\n        \"sensor_status\": false,\n        \"attempts_to_recall\": 3,\n        \"recalled_attempts\": 0\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/plots/38",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"plots",
+						"38"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete plot",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/plots/19",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"plots",
+						"19"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
