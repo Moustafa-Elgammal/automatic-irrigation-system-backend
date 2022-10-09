@@ -31,7 +31,7 @@
 
 * ### Up & Running:
   * Create database called ```irrgation``` and change the  `application.properties` with your credential.
-  * Import the project into your IDE and install the dependencies then Run the mail application.
+  * Import the project into your IDE and install the dependencies then run the main application.
   * You can find the service in you browser @ <a href="http://localhost:8080">localhost:8080</a>.
   * Check <a href="./postman/irrigation-system.postman_collection.json">Postman Collection</a>.
   * check frontend repo for easy UI to check the system functions.
