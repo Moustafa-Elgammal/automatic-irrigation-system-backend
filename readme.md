@@ -1,6 +1,6 @@
 ### Automatic Irrigation System Backend
 * ### Problem Description:
-  As a irrigation system which helps the automatic irrigation of agricultural lands without human intervention, system has to
+  As an irrigation system which helps the automatic irrigation of agricultural lands without human intervention, system has to
   be designed to fulfil the requirement of maintaining and configuring the plots of land by the irrigation time slots and the
   amount of water required for each irrigation period.
   The irrigation system should have integration interface with a sensor device to direct letting the sensor irrigate based on
@@ -30,12 +30,12 @@
       * read retrieve plots details
 
 * ### Up & Running:
-  * Create database called ```irrgation``` and change the  `application.properties` with your credential
-  * Import the project into Intellj IDE and install the dependencies then Run the mail app
-  * You can find the service in you browser @ <a href="http://localhost:8080">localhost:8080</a>
-  * Check <a href="./postman/irrigation-system.postman_collection.json">Postman Collection</a>
+  * Create database called ```irrgation``` and change the  `application.properties` with your credential.
+  * Import the project into your IDE and install the dependencies then Run the mail application.
+  * You can find the service in you browser @ <a href="http://localhost:8080">localhost:8080</a>.
+  * Check <a href="./postman/irrigation-system.postman_collection.json">Postman Collection</a>.
   * check frontend repo for easy UI to check the system functions.
-  * The scheduled jobs can be tracked using the console logs or check <a href="http://localhost:8000/">Scheduler Dashboard</a>
+  * The scheduled jobs can be tracked using the console logs or check <a href="http://localhost:8000/">Scheduler Dashboard</a>.
 
 * ### Learn About the Project:
   * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/) 
@@ -47,7 +47,12 @@
   * [Testing in Spring boot](https://www.baeldung.com/spring-boot-testing)
   * [Validation in Spring boot](https://spring.io/guides/gs/validating-form-input/)
 
-  
-  
-    
+* ### Future Development:
+  * #### Backend enhancements
+    * [ ] Secure the end points.
+    * [ ] Full Unit tests.
+    * [ ] Integration test.
+    * [ ] Response Strategies for each status code.
+    * [ ] Swagger the end point with postman collection.
+    * [ ] Database more entities which help the business.
 
